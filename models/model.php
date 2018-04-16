@@ -1,5 +1,5 @@
 <?php
-namespace \andrewsauder\ezuceunitemeapi\models;
+namespace andrewsauder\ezuceunitemeapi\models;
 
 class model {
 

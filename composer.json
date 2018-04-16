@@ -14,7 +14,9 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"andrewsauder\\": ""
+			"andrewsauder\\": "",
+			"andrewsauder\\ezuceunitemeapi\\": "",
+			"andrewsauder\\ezuceunitemeapi\\models": "models"
 		}
 	}
 }
