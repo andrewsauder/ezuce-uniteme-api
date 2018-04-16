@@ -1,0 +1,20 @@
+{
+    "name": "andrewsauder/ezuceunitemeapi",
+    "description": "PHP wrapper for eZuce uniteme API.",
+    "homepage": "https://github.com/andrewsauder/ezuce-uniteme-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Sauder",
+            "email": "andrewsauder@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"andrewsauder\\": ""
+		}
+	}
+}
