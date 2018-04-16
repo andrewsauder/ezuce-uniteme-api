@@ -16,7 +16,7 @@
 		"psr-4": {
 			"andrewsauder\\": "",
 			"andrewsauder\\ezuceunitemeapi\\": "",
-			"andrewsauder\\ezuceunitemeapi\\models": "models"
+			"andrewsauder\\ezuceunitemeapi\\models\\": "models"
 		}
 	}
 }
