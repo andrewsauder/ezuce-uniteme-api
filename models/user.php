@@ -3,7 +3,7 @@ namespace andrewsauder\ezuceunitemeapi\models;
 
 class user {
 
-	public function __construct($user) {
+	public function __construct($user=null) {
 		if(isset($user)) {
 			$this->id = $user->id;
 			$this->lastName = $user->lastName;

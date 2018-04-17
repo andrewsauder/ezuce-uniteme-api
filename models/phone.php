@@ -3,7 +3,7 @@ namespace andrewsauder\ezuceunitemeapi\models;
 
 class phone {
 
-	public function __construct($phone) {
+	public function __construct($phone=null) {
 		if(isset($phone)) {
 			$this->id = $phone->id;
 			$this->serialNo = $phone->serialNo;
