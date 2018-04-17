@@ -3,6 +3,21 @@ namespace andrewsauder\ezuceunitemeapi\models;
 
 class user {
 
+	public function __construct($user) {
+		if(isset($user)) {
+			$this->id = $user->id;
+			$this->lastName = $user->lastName;
+			$this->firstName = $user->firstName;
+			$this->userName = $user->userName;
+			$this->pin = $user->pin;
+			$this->sipPassword = $user->sipPassword;
+			$this->emailAddress = $user->emailAddress;
+			$this->groups = $user->groups;
+			$this->branch = $user->branch;
+			$this->aliases = $user->aliases;
+		}
+	}
+
 	/** @var int **/
 	public $id;
 
